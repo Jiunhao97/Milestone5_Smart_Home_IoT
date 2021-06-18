@@ -28,3 +28,8 @@ Some of the sensors available in the market required additional library provided
 Sensor that required additional library: **DHT11**<br />
 
 __Additional library required__: *DHT.h* (download from: _**Arduino IDE**_ -> _**Sketch**_ -> _**Include Library**_ -> _**Manage Libraries**_ -> search for “DHT sensor library by Adafruit” and click to download)<br />
+
+```C++
+//Part 1 Define sensor library
+#include <DHT.h>
+```
