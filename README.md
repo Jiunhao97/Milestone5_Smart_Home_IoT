@@ -63,4 +63,24 @@ int DoorState=LOW;
 ```
 
 ### **3.3 Initialize the board**<br />
+This section initializes the board with pin configurations and serial port enablement when the board is power up. It will only run for once in the whole power up cycle.<br />
+
+```C++
+//Part 3 Initialize the board
+void setup() {
+  Serial.begin(115200);
+
+  dht.begin();
+
+  pinMode(GasLED,OUTPUT);
+
+  pinMode(PIRSensor,INPUT);
+  pinMode(PIRLED,OUTPUT);
+
+  pinMode(DoorSensor,INPUT_PULLUP);
+  pinMode(DoorLED,OUTPUT);
+}
+```
+
+### **3.4 Main functional code**<br />
 
