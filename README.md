@@ -22,7 +22,7 @@ As *Arduino IDE* is not compatible for programming of STM32 Nucleo Boards by def
 ## **(3) Steps for Firmware Development**<br />
 The firmware development can be classified into 4 sections, which are:<br />
  
-### **(A) Define sensor library**<br />
+### **3.1 Define sensor library**<br />
 Some of the sensors available in the market required additional library provided by the sensor manufacturer to configure the sensor so that it can operate properly. Hence, it is mandatory to define the sensors’ library at the beginning of code.<br />
 
 Sensor that required additional library: **DHT11**<br />
