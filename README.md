@@ -33,6 +33,5 @@ __Additional library required__: *DHT.h* (download from: _**Arduino IDE**_ -> _*
 //Part 1 Define sensor library
 #include <DHT.h>
 ```
-<br />
 
 ### **3.2 Define pin connection of sensor & variable**<br />
