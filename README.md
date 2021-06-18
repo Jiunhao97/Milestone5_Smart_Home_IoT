@@ -19,7 +19,10 @@ As *Arduino IDE* is not compatible for programming of STM32 Nucleo Boards by def
    8.	Go to _**Tools**_ -> _**Board part number**_, choose for your STM32 board part number. In this work, **Nucleo F446RE** will be used.
    9.	Go to _**Tools**_ -> _**Port**_ and select the port on which your STM32 board is connected to.<br />
  
- ## **(3) Steps for Firmware Development**<br />
- The firmware development can be classified into 4 sections, which are:<br />
+## **(3) Steps for Firmware Development**<br />
+The firmware development can be classified into 4 sections, which are:<br />
  
- ### **(A) Define sensor library**<br />
+### **(A) Define sensor library**<br />
+Some of the sensors available in the market required additional library provided by the sensor manufacturer to configure the sensor so that it can operate properly. Hence, it is mandatory to define the sensors’ library at the beginning of code.<br />
+
+Sensor that required additional library: **DHT11**<br />
