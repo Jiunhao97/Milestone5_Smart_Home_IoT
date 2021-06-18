@@ -17,4 +17,9 @@ As *Arduino IDE* is not compatible for programming of STM32 Nucleo Boards by def
    6.	In _**search**_ column, search for “STM32”, click on “STM32 MCU based boards by STMicroelectronics” to install the board package. All the series of STM32 board by STMicroelectronics will be installed in Arduino IDE.
    7.	Go to _**Tools**_ -> _**Board**_, choose for your STM32 board series. In this work, **Nucleo-64** will be used.
    8.	Go to _**Tools**_ -> _**Board part number**_, choose for your STM32 board part number. In this work, **Nucleo F446RE** will be used.
-   9.	Go to _**Tools**_ -> _**Port**_ and select the port on which your STM32 board is connected to.
+   9.	Go to _**Tools**_ -> _**Port**_ and select the port on which your STM32 board is connected to.<br />
+ 
+ ## **(3) Steps for Firmware Development**<br />
+ The firmware development can be classified into 4 sections, which are:<br />
+ 
+ ### **(A) Define sensor library**<br />
