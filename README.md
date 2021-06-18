@@ -26,3 +26,5 @@ The firmware development can be classified into 4 sections, which are:<br />
 Some of the sensors available in the market required additional library provided by the sensor manufacturer to configure the sensor so that it can operate properly. Hence, it is mandatory to define the sensors’ library at the beginning of code.<br />
 
 Sensor that required additional library: **DHT11**<br />
+
+__Additional library required__: *DHT.h* (download from: _**Arduino IDE**_ -> _**Sketch**_ -> _**Include Library**_ -> _**Manage Libraries**_ -> search for “DHT sensor library by Adafruit” and click to download)<br />
