@@ -87,3 +87,95 @@ This section is the main functional code of the program where it will keep on lo
 
 The algorithm for this work is that the board will read in data from temperature sensor, humidity sensor and gas sensor every 5 seconds. While for motion detection and door state detection, the board will always read in data from PIR sensor and contact switch to give reaction immediately when signals are detected.<br />
 
+*Coding for temperature sensor:*<br />
+```C++
+float val = analogRead(TemperatureSensor);
+float mv = val*4.88;
+analogTemperature = mv/10;
+
+Serial.print("Temperature: ");
+Serial.print(analogTemperature);
+Serial.println(" C");
+```
+
+*Coding for humidity sensor:*<br />
+```C++
+Humidity = dht.readHumidity();
+
+Serial.print("Humidity: ");
+Serial.println(Humidity);
+```
+
+*Coding for gas sensor:*<br />
+```C++
+GasSensorValue = analogRead(GasSensor);
+  
+Serial.print("Gas Concentration: ");
+Serial.println(GasSensorValue);
+  
+if(GasSensorValue > 250)
+{
+    Serial.println("! ! ! Smoke detected ! ! !");
+    for (int count = 0; count < 20; count++)
+    {
+      digitalWrite(GasLED,HIGH);
+      delay(300);
+      digitalWrite(GasLED,LOW);
+      delay(300);
+
+      GasSensorValue = analogRead(GasSensor);
+      if (GasSensorValue < 250)
+      {
+        break;
+      }
+    }
+}
+else
+{
+    digitalWrite(GasLED,LOW);
+}
+```
+
+*Coding for PIR sensor and contact switch:*<br />
+```C++
+for (int count = 0; count < 50; count++)
+{
+    delay (100);
+    
+    PIRState = digitalRead(PIRSensor);
+    if(PIRState == HIGH)
+    {
+      digitalWrite(PIRLED,HIGH);
+      delay(5000); 
+    }
+    else
+    {
+      digitalWrite(PIRLED,LOW);
+    }
+  
+    DoorState = digitalRead(DoorSensor);
+    if (DoorState == HIGH)
+    {
+      for (int count = 0; count < 20; count++)
+      {
+        digitalWrite(DoorLED,HIGH);
+        delay(300);
+        digitalWrite(DoorLED,LOW);
+        delay(300);
+        
+        DoorState = digitalRead(DoorSensor);
+        if (DoorState == LOW)
+        {
+          break;
+        }
+      }
+    }
+    else
+    {
+      digitalWrite(DoorLED,LOW);
+    }
+}
+```
+
+
+
