@@ -35,3 +35,32 @@ __Additional library required__: *DHT.h* (download from: _**Arduino IDE**_ -> _*
 ```
 
 ### **3.2 Define pin connection of sensor & variable**<br />
+The **pin number** in which the sensors are connected to are required to be defined in this section so that the program know which port should the signal receive from/send to.<br />
+
+Also, the **variables** to be used in the program should be defined in this section too.<br />
+
+```C++
+//Part 2 Define pin connection & variable
+int TemperatureSensor=A0;
+float analogTemperature;
+
+#define DHTPIN 2
+#define DHTTYPE DHT11
+DHT dht(DHTPIN,DHTTYPE);
+float Humidity;
+
+int GasSensor=A1;
+int GasLED=3;
+float GasSensorValue;
+
+int PIRSensor=8;
+int PIRLED=4;
+int PIRState=LOW;
+
+int DoorSensor=13;
+int DoorLED=7;
+int DoorState=LOW;
+```
+
+### **3.3 Initialize the board**<br />
+
