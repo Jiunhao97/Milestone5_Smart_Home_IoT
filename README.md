@@ -83,4 +83,7 @@ void setup() {
 ```
 
 ### **3.4 Main functional code**<br />
+This section is the main functional code of the program where it will keep on looping as long as the board is still power up. The main functional code includes receive data from sensors, and send output to receiver such as LED and buzzer.<br />
+
+The algorithm for this work is that the board will read in data from temperature sensor, humidity sensor and gas sensor every 5 seconds. While for motion detection and door state detection, the board will always read in data from PIR sensor and contact switch to give reaction immediately when signals are detected.<br />
 
