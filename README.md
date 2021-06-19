@@ -246,3 +246,5 @@ _**Contact Switch**_ | _**Nucleo F446RE board**_
 wire 1 | 13
 wire 2 | GND
 
+### **4.6 Complete Setup of Hardware**<br />
+![alt text](https://github.com/Jiunhao97/screenshot/blob/main/complete.png)<br />
