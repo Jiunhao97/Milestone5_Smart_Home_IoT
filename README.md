@@ -225,3 +225,14 @@ GND | GND
 DO | *No connection*
 AD | A1
 
+### **4.4 PIR (Passive Infra Red) Sensor**<br />
+*For motion detection to automatically control ON and OFF of lighting.*<br />
+![alt text](https://github.com/Jiunhao97/screenshot/blob/main/pir.jpg)<br />
+   
+*Pins connection to Nucleo F446RE board:*<br />
+_**PIR**_ | _**Nucleo F446RE board**_
+--------- | ---------
+**+** | VCC
+**-** | GND
+OUT | 8
+
