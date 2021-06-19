@@ -4,8 +4,8 @@
 ## **(0) Group Details**<br />
 MKEL1123-05: Advanved Microprocessor System (Sem 20202021-2)<br />
 
-*Lecturer*: Prof. Madya Muhammad Mun’im Ahmad Zabidi<br />
-*Group Member* | *Matric ID*
+_**Lecturer**_: Prof. Madya Muhammad Mun’im Ahmad Zabidi<br />
+_**Group Member**_ | _**Matric ID**_
 ------------ | ---------
 Chng Tai Yau | MKE201094
 Koh Jiun Hao | MKE201088
