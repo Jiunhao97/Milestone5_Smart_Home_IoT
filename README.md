@@ -1,6 +1,16 @@
 # **STM32-Based Smart Home System**<br />
 # **Milestone 5: Work Procedure Documentation**<br />
 
+## **(0) Group Detail**<br />
+MKEL1123-05: Advanved Microprocessor System (Sem 20202021-2)<br />
+
+*Lecturer*: Prof. Madya Muhammad Mun’im Ahmad Zabidi<br />
+*Group Member* | *Matric ID*
+------------ | ---------
+Chng Tai Yau | MKE201094
+Koh Jiun Hao | MKE201088
+Poo Chee Ming | MKE201075
+
 ## **(1) Software/Tools Setup**<br />
 Software/Tools required: [Arduino IDE](https://www.arduino.cc/en/software)<br />
 ![alt text](https://github.com/Jiunhao97/screenshot/blob/main/Screenshot%202021-06-18%20194923.jpg)<br />
