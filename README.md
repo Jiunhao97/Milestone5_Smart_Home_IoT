@@ -1,4 +1,5 @@
-# **Milestone5_Smart_Home_IoT**<br />
+# **STM32-Based Smart Home System**<br />
+# **Milestone 5: Work Procedure Documentation**<br />
 
 ## **(1) Software/Tools Setup**<br />
 Software/Tools required: [Arduino IDE](https://www.arduino.cc/en/software)<br />
