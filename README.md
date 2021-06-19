@@ -248,4 +248,4 @@ wire 2 | GND
 
 ### **4.6 Complete Setup of Hardware**<br />
 ![alt text](https://github.com/Jiunhao97/screenshot/blob/main/complete.png)<br />
-[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/pWJtfFJklF0&list=FLLBiHffQP_0hFOX7jfxK_Uw&index=1/0.jpg)](https://www.youtube.com/watch?v=pWJtfFJklF0&list=FLLBiHffQP_0hFOX7jfxK_Uw&index=1)
+[![IMAGE ALT TEXT HERE](https://i9.ytimg.com/vi/pWJtfFJklF0/mq3.jpg?sqp=CMjltYYG&rs=AOn4CLC8dVZt2qzF4hg197gnnHMFOEgkaQ)](https://www.youtube.com/watch?v=pWJtfFJklF0&list=FLLBiHffQP_0hFOX7jfxK_Uw&index=1)
