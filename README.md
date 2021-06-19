@@ -236,3 +236,13 @@ _**PIR**_ | _**Nucleo F446RE board**_
 **-** | GND
 OUT | 8
 
+### **4.5 Contact Switch**<br />
+*For door open/close detection.*<br />
+![alt text](https://github.com/Jiunhao97/screenshot/blob/main/doorreed.jpg)<br />
+   
+*Pins connection to Nucleo F446RE board:*<br />
+_**Contact Switch**_ | _**Nucleo F446RE board**_
+-------------------- | ---------
+wire 1 | 13
+wire 2 | GND
+
