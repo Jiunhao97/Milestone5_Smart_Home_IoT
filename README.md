@@ -194,7 +194,12 @@ for (int count = 0; count < 50; count++)
 Sensors used in this work and their pins connection to _**Nucleo F446RE board**_:<br />
  
 ### **4.1 LM35 Temperature Sensor**<br />
-   ![alt text](https://github.com/Jiunhao97/screenshot/blob/main/lm35.jpg)<br />
+![alt text](https://github.com/Jiunhao97/screenshot/blob/main/lm35.jpg)<br />
    
+*Pins connection to Nucleo F446RE board:*<br />
+_**LM35**_ | _**Nucleo F446RE board**_
+---------- | ---------
++ | VCC
+- | GND
 
 
