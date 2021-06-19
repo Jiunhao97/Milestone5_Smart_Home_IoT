@@ -190,5 +190,8 @@ for (int count = 0; count < 50; count++)
 
 *Click [here](https://github.com/Jiunhao97/Milestone5_Smart_Home_IoT/blob/main/stm32_iot_smart_home.ino) for complete source code.*<br />
 
-
+## **(4) Steps for Hardware Development**<br />
+Sensors used in this work and their pins connection to Nucleo F446RE board:<br />
+ 
+### **4.1 LM35 Temperature Sensor**<br />
 
