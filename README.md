@@ -188,5 +188,7 @@ for (int count = 0; count < 50; count++)
 }
 ```
 
+*Click [here](https://github.com/Jiunhao97/Milestone5_Smart_Home_IoT/blob/main/stm32_iot_smart_home.ino) for complete source code.*<br />
+
 
 
