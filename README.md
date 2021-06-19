@@ -201,5 +201,15 @@ _**LM35**_ | _**Nucleo F446RE board**_
 ---------- | ---------
 **+** | VCC
 **-** | GND
+OUT | A0
 
+### **4.2 DHT11 Humidity Sensor**<br />
+![alt text](https://github.com/Jiunhao97/screenshot/blob/main/dht11.jpg)<br />
+   
+*Pins connection to Nucleo F446RE board:*<br />
+_**DHT11**_ | _**Nucleo F446RE board**_
+----------- | ---------
+**+** | VCC
+**-** | GND
+OUT | 2
 
