@@ -1,7 +1,7 @@
 # **STM32-Based Smart Home System**<br />
 # **Milestone 5: Work Procedure Documentation**<br />
 
-## **(0) Group Detail**<br />
+## **(0) Group Details**<br />
 MKEL1123-05: Advanved Microprocessor System (Sem 20202021-2)<br />
 
 *Lecturer*: Prof. Madya Muhammad Mun’im Ahmad Zabidi<br />
