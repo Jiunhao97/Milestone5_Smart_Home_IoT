@@ -215,7 +215,7 @@ OUT | 2
 
 ### **4.3 MQ2 Gas Sensor**<br />
 *To measure smoke concentration and hence detect fire incident*<br />
-![alt text](https://github.com/Jiunhao97/screenshot/blob/main/dht11.jpg)<br />
+![alt text](https://github.com/Jiunhao97/screenshot/blob/main/mq2.jpg)<br />
    
 *Pins connection to Nucleo F446RE board:*<br />
 _**MQ2**_ | _**Nucleo F446RE board**_
