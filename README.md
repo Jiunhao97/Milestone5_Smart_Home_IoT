@@ -199,7 +199,7 @@ Sensors used in this work and their pins connection to _**Nucleo F446RE board**_
 *Pins connection to Nucleo F446RE board:*<br />
 _**LM35**_ | _**Nucleo F446RE board**_
 ---------- | ---------
-+ | VCC
-- | GND
+**+** | VCC
+**-** | GND
 
 
